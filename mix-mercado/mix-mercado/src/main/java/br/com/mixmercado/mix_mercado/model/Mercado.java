@@ -12,13 +12,14 @@ import lombok.*;
 
 
 public class Mercado {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long id;
 
     private String nome;
-    private String Tipo;
+    private String tipo;
     private String setor;
     private String tamanho;
     private Double preco;

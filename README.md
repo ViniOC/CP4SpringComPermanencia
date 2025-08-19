@@ -67,15 +67,24 @@ O sistema implementa as operações básicas de **CRUD (Create, Read, Update e D
 - **Exemplo JSON:**
 ```json
 {
-  "nome": "Arroz Agulhinha 5kg",
-  "tipo": "Alimento",
-  "setor": "Mercearia",
-  "tamanho": "Pacote 5kg",
-  "preco": 27.90
+  "nome": "Detergente Líquido",
+  "tipo": "Limpeza",
+  "setor": "Produtos de Limpeza",
+  "tamanho": "500ml",
+  "preco": 4.99
 }
 ```
 
-### 🔹 Delete (DELETE)
-- **Endpoint:** `/mercado/{id}`  
-- **Exemplo JSON:**
+![Requisição put](image-3.png)
 
+### 🔹 Delete (DELETE)
+- **Endpoint:** `/mercado/{id}`
+
+![Requisição Delete](image-4.png)
+
+## 🌐 Deploy
+- **Link de Deploy:** 
+
+## 👨‍💻 Integrantes
+- **Davi Gonzaga Ferreira** – RM 554890
+- **Vinícius de Oliveira Coutinho** – RM 556182 

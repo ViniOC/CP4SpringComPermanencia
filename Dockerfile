@@ -1,12 +1,15 @@
-FROM openjdk:17-jdk-slim
+# Use uma imagem Java 17 leve
+FROM eclipse-temurin:17-jre-jammy
 LABEL authors="labsfiap"
 
-# Copia o jar para o container
-COPY app.jar /app.jar
+# Cria diretório da aplicação
+WORKDIR /app
 
-# Expõe a porta (opcional, mas bom para documentação)
+# Copia o jar compilado para dentro do container
+COPY target/*.jar /app/app.jar
+
+# Expõe a porta do Spring Boot
 EXPOSE 8082
 
-# Comando para rodar o app
-ENTRYPOINT ["sh", "-c", "java -Dserver.port=${PORT:-8082} -jar /app.jar"]
-
+# Comando para rodar a aplicação usando a variável PORT do Render
+ENTRYPOINT ["sh", "-c", "java -Dserver.port=${PORT:-8082} -jar /app/app.jar"]

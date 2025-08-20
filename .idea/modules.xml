@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/mix-mercado.iml" filepath="$PROJECT_DIR$/.idea/mix-mercado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CP4SpringComPermanencia.iml" filepath="$PROJECT_DIR$/.idea/CP4SpringComPermanencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mix-mercado/mix-mercado.iml" filepath="$PROJECT_DIR$/mix-mercado/mix-mercado.iml" />
     </modules>
   </component>
 </project>

@@ -6,7 +6,8 @@ LABEL authors="labsfiap"
 WORKDIR /app
 
 # Copia o jar compilado para dentro do container
-COPY target/*.jar /app/app.jar
+COPY mix-mercado/target/*.jar /app/app.jar
+
 
 # Expõe a porta do Spring Boot
 EXPOSE 8082

@@ -83,7 +83,7 @@ O sistema implementa as operações básicas de **CRUD (Create, Read, Update e D
 ![Requisição Delete](image-4.png)
 
 ## 🌐 Deploy
-- **Link de Deploy: ** https://cp4springcompermanencia.onrender.com/mercado
+- **Link de Deploy: https://cp4springcompermanencia.onrender.com/mercado** 
 
 ## 👨‍💻 Integrantes
 - **Davi Gonzaga Ferreira** – RM 554890
